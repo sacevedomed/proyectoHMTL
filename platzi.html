@@ -8,6 +8,62 @@
 <body>
     <img class="centrado" src="C:\Users\POR0074\Pictures\Firma.png" alt="Firma">
     <h1>Este es mi primer blog que realizaremos el día de hoy</h1>
+    <form action="/contact" method="post">
+        <p>
+          <label>¡Quiero conocer un poco de ti! ¡Cuentame!</label><br><br>
+          <label>
+            <input type="radio" name="title" value="Mujer">
+            Mujer
+          </label>
+          <label>
+            <input type="radio" name="title" value="Hombre">
+            Hombre
+          </label>
+          <label>
+            <input type="radio" name="title" value="Prefiero no decirlo">
+            Prefiero no decirlo
+          </label>
+        </p>
+        <p>
+          <label>Nombre(s)</label><br>
+          <input type="text" name="first_name"required>
+        </p>
+        <p>Apellido(s)</label><br>
+          <input type="text" name="last_name" required>
+        </p>
+        <p>
+          <label>Correo electrónico</label><br>
+          <input type="email" name="email" required>
+        </p>
+        <p>
+          <label>Celular</label><br>
+          <input type="number" name="phone" required>
+        </p>
+        <p>
+          <label>Contraseña</label><br>
+          <input type="password" name="password" required>
+        </p>
+        <p>
+          <label>Municipio donde vives</label><br>
+          <select required>
+            <option></option>
+            <option>Girardota</option>
+            <option>La Estrella</option>
+            <option>Envigado</option>
+            <option>Caldas</option>
+          </select>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" value="terms">
+            ¿Aceptas el tratamiento de datos?</a>
+          </label>
+        </p>
+        <p>
+          <button>Registrar</button>
+          <button type="reset">Limpiar</button>
+        </p>
+      </form>
 
 </body>
 </html>
